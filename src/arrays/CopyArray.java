@@ -6,11 +6,11 @@ public class CopyArray {
 
         int i;
         int[] array = new int[4];
-        int[] array2 = new int[4];
+        int[] array2 = new int[array.length];
         Random random = new Random();
 
         for (i=0; i<array.length; i++) {
-            array[i] = random.nextInt();
+            array[i] = random.nextInt(1000);
             System.out.print(array[i] + "\t");
         }
         System.out.println();
