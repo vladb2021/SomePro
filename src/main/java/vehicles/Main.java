@@ -9,6 +9,7 @@ public class Main {
         car.increaseSpeed(20);
         car.increaseGear();
         car.currentGear();
+        car.steeringRight();
         car.increaseSpeed(50);
         car.steeringLeft();
         car.currentSpeed();
@@ -16,5 +17,9 @@ public class Main {
         car.boostOn();
         car.boostOff();
         car.decreaseSpeed(100);
+        car.decreaseGear();
+        car.decreaseGear();
+        car.currentGear();
+        car.engineOff();
     }
 }

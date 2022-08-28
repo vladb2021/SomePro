@@ -25,9 +25,7 @@ public class Vehicle {
     public int getSpeed() { return speed; }
     public void setSpeed(int speed) { this.speed = speed; }
 
-    public void steeringLeft() {
-        System.out.println("You are turning left");
-    }
+    public void steeringLeft() { System.out.println("You are turning left"); }
     public void steeringRight() {
         System.out.println("You are turning right");
     }
